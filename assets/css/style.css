@@ -1,0 +1,29 @@
+body {
+    color: #777777;
+    width: 960px;
+}
+
+#border {
+    
+}
+
+#myname {
+    background-color: #4aaaa5;
+    color: white;
+    width: 240px;
+    padding: 20px;
+    margin-left: 100px;
+    margin-right: 300px;
+    float: left;
+
+}
+
+.navs {
+    display: inline;
+    float: left;
+    padding: 40px 20px 20px 20px;
+}
+
+.sectionhead {
+    clear: both;
+}
