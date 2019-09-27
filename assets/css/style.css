@@ -4,7 +4,7 @@ body {
 }
 
 #border {
-    
+    /* border-bottom: 2px solid black; */
 }
 
 #myname {
@@ -13,7 +13,8 @@ body {
     width: 240px;
     padding: 20px;
     margin-left: 100px;
-    margin-right: 300px;
+    margin-right: 250px;
+    margin-bottom: 0px;
     float: left;
 
 }
@@ -21,9 +22,58 @@ body {
 .navs {
     display: inline;
     float: left;
-    padding: 40px 20px 20px 20px;
+    padding: 40px 20px 10px 20px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.mainhead:after {
+    content: '';
+    display: block;
+    clear:both;
+    border-bottom: 2px solid #cccccc;  
+}
+
+#border {
+    margin-left: 100px;
+    margin-top: 30px;
+    width: 750px;
+    padding: 20px;
+    background-color:#ffffff;
+    border: 2px solid #cccccc;
 }
 
 .sectionhead {
+    padding: 15px 15px 15px 0px;
+    color: #4aaaa5;
+    border-bottom: 2px solid #cccccc;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+#profilepic{
+    float: left;
+    width: 150px;
+    height: 150px;
+    margin: 5px 15px 15px 0px;
+}
+
+.description {
+    float: none;
+    line-height: 20px;
+}
+
+#content:after{
+    content: "";
+    display: block;
     clear: both;
+    
+}
+
+
+/* .clearfix:after { */
+    /* content: ''; */
+    /* display: block; */
+    /* clear:both; */
 }
