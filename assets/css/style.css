@@ -1,6 +1,5 @@
 body {
     color: #777777;
-    
 }
 
 
@@ -10,7 +9,7 @@ body {
     width: 240px;
     padding: 20px;
     margin-left: 20%;
-    margin-right: 450px;
+    margin-right: 25%;
     margin-bottom: 0px;
     float: left;
 
@@ -30,18 +29,27 @@ body {
     border-bottom: 2px solid #cccccc;  
 }
 
+.container {  
+}
+
 .border {
-    margin-left: 20%;
+    /* margin-left: 20%;
     margin-top: 30px;
     margin-bottom: 100px;
-    margin-right: 30px;
+    margin-right: 30px; */
+    margin: auto;
     width: 960px;
     padding: 20px;
     border: 2px solid #cccccc;
-    background-image: url(./assets/images/mochaGrunge/mochaGrunge/mochaGrunge_@2X.png);
     background-size: cover;
     background-repeat: no-repeat;
-    
+    z-index: -1;
+    background-color: #ffffff;
+}
+
+.mainsection {
+    background-image: url(../images/mochaGrunge/mochaGrunge/mochaGrunge_@2X.png);
+
 }
 
 .sectionhead {
@@ -51,6 +59,7 @@ body {
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-size: 25px;
     font-weight: bold;
+    
 }
 
 
@@ -77,7 +86,7 @@ body {
     padding-top: 30px;
     background-color: #666666;
     border-top: 10px solid #4aaaa5;
-    margin-top: 50px;
+    /* margin-top: 50px; */
     text-align: center;
     color: #ffffff;
 }
@@ -132,7 +141,7 @@ form {
 .ports{
     display: block;
     width: 300px;
-    height: 300px;
+    height: 250px;
     margin: 20px 20px 20px 20px;
     position: relative;
     float: left;
@@ -150,24 +159,24 @@ form {
 
 }
 
-#hangman {
-    background-image: url('')
+#hangpic {
+    background-image: url('../images/hangman.jpg');
 }
 
-#rpg {
-    background-image: url('')
+#rpgpic {
+    background-image: url('../images/rpg.jpg');
 }
 
-#trivia {
-    background-image: url('')
+#triviapic {
+    background-image: url('../images/trivia.jpg');
 }
 
-#rutgers{
-    background-image: url('')
+#rutgerspic {
+    background-image: url('../images/rutgers.jpg');
 }
 
-#rps {
-    background-image: url('')
+#rpspic {
+    background-image: url('../images/trivia.jpg');
 }
 
 .clearfix:after {
