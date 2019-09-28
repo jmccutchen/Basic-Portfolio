@@ -30,7 +30,7 @@ body {
     border-bottom: 2px solid #cccccc;  
 }
 
-#border {
+.border {
     margin-left: 20%;
     margin-top: 30px;
     margin-bottom: 100px;
@@ -66,7 +66,7 @@ body {
     line-height: 20px;
 }
 
-#content:after{
+.content:after{
     content: "";
     display: block;
     clear: both;
@@ -80,4 +80,51 @@ body {
     margin-top: 50px;
     text-align: center;
     color: #ffffff;
+}
+
+#fullname {
+    width: 100%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #cccccc;
+    box-sizing: border-box;
+}
+
+#email {
+    width: 100%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #cccccc;
+    box-sizing: border-box;
+}
+
+#message {
+    width: 100%;
+    padding: 10px 20px 200px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #cccccc;
+    box-sizing: border-box;
+    word-wrap: break-word;
+}
+
+input[type=submit] {
+    width: 200px;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #41f14a;
+}
+
+form {
+    margin-top: 10px;
 }
